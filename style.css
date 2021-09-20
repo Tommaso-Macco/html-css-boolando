@@ -1,3 +1,6 @@
+
+/* GENERAL SETTINGS */
+
 * {
     margin: 0;
     border: 0;
@@ -8,3 +11,37 @@
     width: 80%;
     margin: 50px auto;
 }
+
+/* SECTION 1 SETTINGS */
+
+.row {
+    margin-top: 100px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.merchbox {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.merchbox>img {
+    height: 500px;
+    object-fit:cover;
+    text-align: center;
+}
+
+
+
+
+
+/* SECTION 2 SETTINGS */
